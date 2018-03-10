@@ -4,12 +4,8 @@
 
 <h1>{{ message }}</h1>
 
-<ul>
   {{#each filmData}}
-    <li>
-      <h4>{{ movies_title }}</h4>
-      <img src="images/{{ movies_cover }}" alt="Movie Trailer Cover">
-      <a href="/film/{{movies_id}}" class="button">View Details</a>
-    </li>
+    <h4 class="small-4">{{ movies_title }}</h4>
+    <img src="images/{{ movies_cover }}" alt="Movie Trailer Cover">
+    <a href="/film/{{movies_id}}" class="button">View Details</a>
   {{/each}}
-</ul>

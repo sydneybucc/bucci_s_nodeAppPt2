@@ -21,7 +21,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/kids', (req, res) => {
-  connect.query('SELECT * FROM tbl_movies WHERE movies_kids=1', (err, result) => { //change sql to kids movies later!
+  connect.query('SELECT * FROM tbl_movies WHERE movies_kids=1', (err, result) => {
     console.log('from selecting movies');
     if (err) {
       throw err; console.log(err);
