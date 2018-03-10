@@ -1,0 +1,17 @@
+<a href="/">
+  <i class="fa-fa-home"></i>
+</a>
+
+<h1>{{ message }}</h1>
+
+<ul>
+  {{#each filmData}}
+    <li>
+      <h4>{{ movies_title }}</h4>
+      <p>{{ movies_runtime }}</p>
+      <p>{{ movies_storyline }}</p>
+      <p>{{ movies_year }}</p>
+      <a href="/film/{{movies_id}}" class="button">View Details</a>
+    </li>
+  {{/each}}
+</ul>
