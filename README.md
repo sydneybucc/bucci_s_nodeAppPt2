@@ -1,80 +1,55 @@
-# Project Title
+# Audio/Video App Pt.2
 
-One Paragraph of project description goes here
+Node.js-based video application with the ability to watch movie trailers.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Node.js will need to be installed, as well as Terminal for Mac or Cmder for Windows. Laragon Wamp was used for this project which will have Cmder, and built in Database/SQL.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Find and download Node.js and Laragon Wamp
 
 ```
-Give examples
+https://nodejs.org/en/
+https://laragon.org/
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Once Node.js is installed to the computer, open Terminal/Cmder, cd into work files:
 
 ```
-Give the example
+cd *folder name*
 ```
 
-And repeat
+and type:
 
 ```
-until finished
+npm install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+This will install the Node.js files needed into the work files.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+To run tests and see if files are working, navigate to the Laragon window and click the "Web" page at the bottom. In the browser, type in:
 
 ```
-Give an example
+http://foldername.oo
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+In this case it would be:
 
 ```
-Give an example
+http://videoapp.oo
 ```
 
-## Deployment
+That is the root of the project, to navigate to other pages, simply ```http://videoapp.oo/films/```
 
-Add additional notes about how to deploy this on a live system
+## Author
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Sydney Bucci
 
 ## License
 
