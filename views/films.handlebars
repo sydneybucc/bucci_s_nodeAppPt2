@@ -8,9 +8,7 @@
   {{#each filmData}}
     <li>
       <h4>{{ movies_title }}</h4>
-      <p>{{ movies_runtime }}</p>
-      <p>{{ movies_storyline }}</p>
-      <p>{{ movies_year }}</p>
+      <img src="images/{{ movies_cover }}" alt="Movie Trailer Cover">
       <a href="/film/{{movies_id}}" class="button">View Details</a>
     </li>
   {{/each}}

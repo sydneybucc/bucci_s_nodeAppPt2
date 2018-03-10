@@ -9,7 +9,7 @@ var config = require('../config');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render("home", {
-    title: 'What Up?',
+    title: 'Whats Up?',
     message : "handlebars is awesome",
     mainpage : true,
     kidsmode : config.kidsmode
